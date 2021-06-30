@@ -54,6 +54,96 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+          <tr onmouseout="piv_stop()" onmouseover="piv_start()">
+            <td style="padding:20px;width:40%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='piv_image'><video  width=300 muted autoplay loop>
+                <source src="images/piv.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/piv.jpg' width= "300">
+              </div>
+              <script type="text/javascript">
+                function piv_start() {
+                  document.getElementById('piv_image').style.opacity = "1";
+                }
+
+                function piv_stop() {
+                  document.getElementById('piv_image').style.opacity = "0";
+                }
+                piv_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://jonbarron.info/mipnerf">
+                <papertitle>Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields</papertitle>
+              </a>
+              <br>
+              <strong>Jonathan T. Barron</strong>,
+              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
+              <a href="http://matthewtancik.com/">Matthew Tancik</a>, <br>
+              <a href="https://phogzone.com/">Peter Hedman</a>,
+              <a href="http://www.ricardomartinbrualla.com/">Ricardo Martin-Brualla</a>,
+              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>
+              <br>
+              <em>arXiv</em>, 2021 
+              <br>
+              <a href="http://jonbarron.info/mipnerf">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2103.13415">arXiv</a>
+              /
+              <a href="https://youtu.be/EpH175PY1A0">video</a>
+							/
+              <a href="https://github.com/google/mipnerf">code</a>
+              <p></p>
+              <p>NeRF is aliased, but we can anti-alias it by casting cones and prefiltering the positional encoding function.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="bajaj_stop()" onmouseover="bajaj_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" id = 'ktm'>
+                <div class="two" id='bajaj_image'>
+                  <img src='images/conrod.jpg' width="170"></div>
+                <img src='images/ktm.png' width="210">
+              </div>
+              <script type="text/javascript">
+                function bajaj_start() {
+					document.getElementById('bajaj_image').style.opacity = "1";
+				 
+                  
+                }
+
+                function bajaj_stop() {
+				  
+                  document.getElementById('bajaj_image').style.opacity = "0";
+                }
+                bajaj_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://people.csail.mit.edu/xiuming/projects/nerfactor/">
+              <papertitle>NeRFactor: Neural Factorization of Shape and Reflectance<br>
+Under an Unknown Illumination</papertitle>
+              </a>
+              <br>
+              <a href="https://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
+              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+              <a href="https://boyangdeng.com/">Boyang Deng</a>,<br>
+              <a href="https://www.pauldebevec.com/">Paul Debevec</a>,
+              <a href="http://billf.mit.edu/">William T. Freeman</a>,
+							<strong>Jonathan T. Barron</strong>,
+              <br>
+              <em>arXiv</em>, 2021 
+              <br>
+              <a href="https://people.csail.mit.edu/xiuming/projects/nerfactor/">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2106.01970">arXiv</a>
+              /
+              <a href="https://www.youtube.com/watch?v=UUVSPJlwhPg">video</a>
+              <p></p>
+              <p>By placing priors on illumination and materials, we can recover NeRF-like models of the intrinsics of a scene from a single multi-image capture.</p>
+            </td>
  
 <!--
           <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
