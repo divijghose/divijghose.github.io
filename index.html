@@ -51,6 +51,45 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+ <tr onmouseout="tnse2d_stop()" onmouseover="tnse2d_start()">
+            <td style="padding:20px;width:40%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='tnse2d_image'><video  width=300 muted autoplay loop>
+                <source src="images/GlyphPlot.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/img46.png' width= "250">
+              </div>
+              <script type="text/javascript">
+                function tnse2d_start() {
+                  document.getElementById('tnse2d_image').style.opacity = "1";
+                }
+
+                function tnse2d_stop() {
+                  document.getElementById('tnse2d_image').style.opacity = "0";
+                }
+                tnse2d_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/file/d/1Y49HT3fSaGE_55w8pGT_OiME1dwKVfuv/view?usp=sharing">
+                <papertitle>Pressure-PIV: Numerical Prediction of Pressure for Flow around a Cylinder using Particle Image Velocimetry Data</papertitle>
+              </a>
+              <br>
+              <strong>Divij Ghose</strong>,
+              Roven Pinto,
+              <a href="https://scholar.google.co.in/citations?user=U-dPcOYAAAAJ&hl=en">Dr. C.M. Sewatkar</a>
+      
+              <br>
+             
+              <p></p>
+              <p>Traditional methods of pressure measurement are usually intrusive in nature, and are rarely able to quantify the entire flow field. We present an accurate, cost-effective and non-intrusive method by computing the pressure field from velocity data obtained using Particle Image Velocimetry. The result can be post-processed to find coefficients of drag and lift. We use two approaches - one that solves the Pressure Poisson equation over the entire domain, and another that integrates the pressure gradients calculated using the Navier-Stokes eqaution. Moreover, unlike others, we use a single-Laser PIV combined with a novel shadow correction technique, which makes our system more accesible.</p>
+            </td>
+          </tr> 
+
+
+
+
           <tr onmouseout="tcd2dmc_stop()" onmouseover="tcd2dmc_start()">
             <td style="padding:20px;width:40%;vertical-align:middle">
               <div class="one">
