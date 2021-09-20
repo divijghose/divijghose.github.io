@@ -41,28 +41,118 @@
           </tr>
         </tbody></table>
         
+        
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>News</heading>
 
+          </td>
+        </tr>
+      </tbody></table>
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding-left:100px;padding-right:75px;width:5%;vertical-align:middle"><img src="images/gpss.svg" width="100"></td>
+          <td width="105%" valign="center">
+            <strong>13-16 September, 2021</strong>
+            <br>
+            I attended the <a href="http://gpss.cc/gpss21/">Gaussian Process Summer School 2021</a>!
+            <br>
+            <a href="https://drive.google.com/file/d/1JC91_RjPh75EGe1JisLfunCGpUAUAwJI/view?usp=sharing">Certificate</a> | <a href="https://github.com/divijghose/GPSS21/tree/2021">GitHub</a> 
+          </td>
+        </tr>
+        <table style="width:75.5%;border:100px;border-spacing:0px;border-collapse:separate;margin-right:100px;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding-left:77.5px;padding-right:5000px; padding-top:150px;padding-right:50px;width:5%;vertical-align:middle"></td>
+            <td width="75%" valign="center">
+              <strong>2 September, 2021</strong>
+              <br>
+              Our work on "Ensemble forecast of COVID-19 in Karnataka for vulnerability assessment and policy interventions" is now available as a <a href="https://www.medrxiv.org/content/10.1101/2021.08.31.21262943v1">preprint</a>!
+              <br>
+              Press:  <a href="https://www.deccanherald.com/state/top-karnataka-stories/doubling-vaccination-rate-can-reduce-active-case-load-ten-fold-experts-1017649.html">Deccan Herald</a> | <a href="https://www.newindianexpress.com/states/karnataka/2021/aug/09/if-new-variant-emerges-karnataka-may-see-20-lakh-cases-between-august-22-and-september-10-iisc-2342092.html">The New Indian Express</a>
             </td>
           </tr>
-        </tbody></table>
+  
+        
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding-left:100px;padding-right:75px;padding-top:50px;padding-bottom:100px;width:5%;vertical-align:middle"><img src="images/Qiskit.png" width="100"></td>
+          <td width="75%" valign="center">
+            <strong>12-23 July, 2021</strong>
+            <br>
+            I attended the <a href="https://qiskit.org/events/summer-school/">Qiskit Global Summer School 2021</a>!
+            <br>
+            <a href="https://drive.google.com/file/d/1MdH9cJUcUjyzpkIijuHfQnQbtPhiatY7/view?usp=sharing">Certificate</a> 
+          </td>
+        </tr>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Research</heading>
+            <br>
+            My current project, SPADE, aims to combine the uncertainty quantification scheme of dynamically orthogonal(DO) field equations with finite element methods to create a novel modeling framework where analysis and estimation
+            can be performed for optimal design under uncertainty.
+            <br>
+            Given below are some other projects I've worked on in academia and industry.
+          <br>
+          </td>
+        </tr>
+      </tbody></table>
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr onmouseout="covid_stop()" onmouseover="covid_start()">
+          <td style="padding:0px 100px 150px 10px;width:45%;vertical-align:middle">
+            <div class="one" id = 'heatmap'>
+              <div class="two" id='prob'>
+                <img src='images/probdist.png' width="425"></div>
+              <img src='images/heatmap.png' width="375">
+            </div>
+            <script type="text/javascript">
+              function covid_start() {
+        document.getElementById('prob').style.opacity = "1";
+       
+                
+              }
+
+              function covid_stop() {
+        
+                document.getElementById('prob').style.opacity = "0";
+              }
+              covid_stop()
+            </script>
+          </td>
+          <td style="padding:30px;width:75%;vertical-align:middle">
+            <a href="https://colab.research.google.com/github/divijghose/COVID_Wave3_IISc/blob/main/COVID_Wave3_Ensemble.ipynb">
+              <papertitle>Ensemble forecast of COVID-19 in Karnataka for vulnerability assessment and policy interventions</papertitle>
+            </a>
+            <br>
+            <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>,
+            <a href="http://cds.iisc.ac.in/faculty/deepakns/">Deepak Subramani</a>,
+            Thivin Anandh,
+            <strong>Divij Ghose</strong>,
+            <a href="https://giridhar.org/">Giridhar Babu</a>,
+            <br>
+            <em>Submitted to The Lancet Public Health</em> 
+            <br>
+            <a href="https://github.com/divijghose/COVID_Wave3_IISc">GitHub</a> /
+            <a href="https://www.medrxiv.org/content/10.1101/2021.08.31.21262943v1">medrXiv</a>
+            <p></p>
+            <p>We present an ensemble forecast for Wave-3 of COVID-19 in the state of Karnataka, India, using the IISc  Population Balance Model for infectious disease spread. The ensemble is built with 972 members by varying seven critical parameters that quantify the uncertainty in the spread dynamics (antibody waning, viral mutation) and interventions (pharmaceutical, non-pharmaceutical).</p>
+          </td>
+        </tr> 
+
 
  <tr onmouseout="tnse2d_stop()" onmouseover="tnse2d_start()">
-            <td style="padding:20px;width:40%;vertical-align:middle">
-              <div class="one" id = "Pairplots">
-                <div class="two" id='tnse2d_image'><video  width=250 muted autoplay loop>
-                <source src="images/ppts.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <video  width=350 muted autoplay loop>
-                <source src="images/GlyphPlot.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </div>
-              <script type="text/javascript">
+  <td style="padding:80px 50px 110px 80px;width:40%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='tnse2d_image'><video  width=350 muted autoplay loop>
+      <source src="images/glyph1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='images/img46.png' width= "275">
+    </div>
+    <script type="text/javascript">
                 function tnse2d_start() {
                   document.getElementById('tnse2d_image').style.opacity = "1";
                 }
@@ -78,10 +168,10 @@
                 <papertitle>Uncertainty Quantification using Monte-Carlo sampling: Unsteady Navier-Stokes equation</papertitle>
               </a>
               <br>
-              <a href="http://sniklaus.com/dualref">Code</a> 
+              <a href="https://github.com/divijghose/ParMooN_SPADE">Code</a> 
              
               <p></p>
-              <p>Traditional methods of pressure measurement are usually intrusive in nature, and are rarely able to quantify the entire flow field. We present an accurate, cost-effective and non-intrusive method by computing the pressure field from velocity data obtained using Particle Image Velocimetry. The result can be post-processed to find coefficients of drag and lift. We use two approaches - one that solves the Pressure Poisson equation over the entire domain, and another that integrates the pressure gradients calculated using the Navier-Stokes eqaution. Moreover, unlike others, we use a single-Laser PIV combined with a novel shadow correction technique, which makes our system more accesible.</p>
+              <p>Implementation of Monte-Carlo simulations in CMG's in-house parallel finite element software <a href="https://cmg.cds.iisc.ac.in/parmoon/">ParMooN</a>. For the lid-driven cavity problem, the Monte-Carlo realizations for initial velocity are run through one time-step of the Navier-Stokes solver in ParMooN to make the flow divergence free.The Monte-Carlo simulations will be used to initialize the DO Equations as well as a benchmark solution.</p>
             </td>
           </tr> 
 
@@ -89,13 +179,13 @@
 
 
           <tr onmouseout="tcd2dmc_stop()" onmouseover="tcd2dmc_start()">
-            <td style="padding:50px;width:40%;vertical-align:middle">
+            <td style="padding:40px 50px 50px 10px;width:40%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='tcd2dmc_image'><video  width=350 muted autoplay loop>
-                <source src="images/TCD2D_MC.mp4" type="video/mp4">
+                <div class="two" id='tcd2dmc_image'><video  width=375 muted autoplay loop>
+                <source src="images/tcd2d.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
-                <img src='images/sol_1.png' width= "350">
+                <img src='images/sol_1.png' width= "375">
               </div>
               <script type="text/javascript">
                 function tcd2dmc_start() {
@@ -108,26 +198,26 @@
                 tcd2dmc_stop()
               </script>
             </td>
-            <td style="padding:40px;width:75%;vertical-align:middle">
+            <td style="padding:45px;width:75%;vertical-align:middle">
               
                 <papertitle>Uncertainty Quantification using Monte-Carlo sampling: Unsteady Convection-Diffusion equation</papertitle>
               </a>
               <br>
-              <a href="http://sniklaus.com/dualref">Code</a> 
+              <a href="https://github.com/divijghose/ParMooN_SPADE">Code</a> 
              
               <p></p>
-              <p>Traditional methods of pressure measurement are usually intrusive in nature, and are rarely able to quantify the entire flow field. We present an accurate, cost-effective and non-intrusive method by computing the pressure field from velocity data obtained using Particle Image Velocimetry. The result can be post-processed to find coefficients of drag and lift. We use two approaches - one that solves the Pressure Poisson equation over the entire domain, and another that integrates the pressure gradients calculated using the Navier-Stokes eqaution. Moreover, unlike others, we use a single-Laser PIV combined with a novel shadow correction technique, which makes our system more accesible.</p>
+              <p>Implementation of Monte-Carlo simulations in CMG's in-house parallel finite element software <a href="https://cmg.cds.iisc.ac.in/parmoon/">ParMooN</a>. For a given length scale and standard deviation function, the code generates a user-specified number of realizations of initial values. The realizations are then run through the unsteady Convection-Diffusion model(TCD2D) available in ParMooN. The output distribution is then post-processed.</p>
             </td>
           </tr> 
 
           <tr onmouseout="piv_stop()" onmouseover="piv_start()">
-            <td style="padding:20px;width:40%;vertical-align:middle">
+            <td style="padding:50px 10px 60px 10px;width:40%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='piv_image'><video  width=400 muted autoplay loop>
+                <div class="two" id='piv_image'><video  width=450 muted autoplay loop>
                 <source src="images/piv.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
-                <img src='images/piv.jpg' width= "400">
+                <img src='images/piv.jpg' width= "450">
               </div>
               <script type="text/javascript">
                 function piv_start() {
@@ -140,7 +230,7 @@
                 piv_stop()
               </script>
             </td>
-            <td style="padding:40px;width:75%;vertical-align:middle">
+            <td style="padding:150px 45px 60px 45px ;width:75%;vertical-align:middle">
               <a href="https://drive.google.com/file/d/1Y49HT3fSaGE_55w8pGT_OiME1dwKVfuv/view?usp=sharing">
                 <papertitle>Pressure-PIV: Numerical Prediction of Pressure for Flow around a Cylinder using Particle Image Velocimetry Data</papertitle>
               </a>
@@ -152,16 +242,16 @@
               <br>
              
               <p></p>
-              <p>Traditional methods of pressure measurement are usually intrusive in nature, and are rarely able to quantify the entire flow field. We present an accurate, cost-effective and non-intrusive method by computing the pressure field from velocity data obtained using Particle Image Velocimetry. The result can be post-processed to find coefficients of drag and lift. We use two approaches - one that solves the Pressure Poisson equation over the entire domain, and another that integrates the pressure gradients calculated using the Navier-Stokes eqaution. Moreover, unlike others, we use a single-Laser PIV combined with a novel shadow correction technique, which makes our system more accesible.</p>
+              <p>Traditional methods of pressure measurement are usually intrusive in nature, and are rarely able to quantify the entire flow field. We present an accurate, cost-effective and non-intrusive method by computing the pressure field from velocity data obtained using Particle Image Velocimetry. The result can be post-processed to find coefficients of drag and lift. We use two approaches - one that solves the Pressure Poisson equation over the entire domain, and another that integrates the pressure gradients calculated using the Navier-Stokes equation. Moreover, unlike others, we use a single-Laser PIV combined with a novel shadow correction technique, which makes our system more accesible.</p>
             </td>
           </tr> 
 
           <tr onmouseout="bajaj_stop()" onmouseover="bajaj_start()">
-            <td style="padding:75px;width:25%;vertical-align:middle">
+            <td style="padding:75px;width:45%;vertical-align:middle">
               <div class="one" id = 'ktm'>
                 <div class="two" id='bajaj_image'>
-                  <img src='images/conrod.jpg' width="170"></div>
-                <img src='images/ktm.png' width="210">
+                  <img src='images/conrod.jpg' width="190"></div>
+                <img src='images/ktm.png' width="225">
               </div>
               <script type="text/javascript">
                 function bajaj_start() {
@@ -177,7 +267,7 @@
                 bajaj_stop()
               </script>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:45px;width:75%;vertical-align:middle">
               
               <papertitle>Design and Analysis of Powertrain Components</papertitle>
               
