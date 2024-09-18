@@ -129,3 +129,257 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Existing font faces and basic styles remain unchanged */
+
+body {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #f09228;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.profile-image {
+  flex: 0 0 300px;
+  margin-left: 20px;
+}
+
+.profile-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+/* .news-item, .research-item, .experience-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.news-image, .experience-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.news-content, .experience-content {
+  flex: 1;
+} */
+.research-item, .experience-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.experience-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: right;
+  font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+
+  h1 {
+      font-size: 28px;
+  }
+
+  h2 {
+      font-size: 22px;
+  }
+
+  .profile {
+      flex-direction: column-reverse;
+  }
+
+  .profile-image {
+      margin-left: 0;
+      margin-bottom: 20px;
+  }
+
+  .news-item, .research-item, .experience-item {
+      flex-direction: column;
+  }
+
+  .news-image, .experience-item img {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+      font-size: 13px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+}
+
+/* For a scrollable news section */
+
+.news-container {
+  max-height: 400px; /* Adjust this value as needed */
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* .news-item {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+} */
+
+.news-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+/* 
+.news-image {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  object-fit: cover;
+} */
+
+/* .news-content {
+  flex: 1;
+} */
+
+/* Customize scrollbar for webkit browsers */
+.news-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive adjustments
+@media screen and (max-width: 768px) {
+  .news-item {
+      flex-direction: column;
+  }
+
+  .news-image {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+      margin-right: 0;
+  }
+} */
+
+
+
+
+.news-item {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.news-image {
+  width: 150px; /* Increased from 100px */
+  min-width: 150px; /* Ensure a minimum width */
+  height: auto;
+  margin-right: 20px;
+  object-fit: contain; /* Changed from cover to contain */
+  align-self: flex-start; /* Align image to the top */
+}
+
+.news-content {
+  flex: 1;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .news-item {
+      flex-direction: column;
+  }
+
+  .news-image {
+      width: 100%;
+      max-width: 250px; /* Increased from 200px */
+      margin-bottom: 15px;
+      margin-right: 0;
+  }
+}
