@@ -211,7 +211,12 @@ a:focus, a:hover {
 .news-content, .experience-content {
   flex: 1;
 } */
-.research-item, .experience-item {
+/* .research-item, .experience-item {
+  display: flex;
+  margin-bottom: 30px;
+} */
+
+.experience-item {
   display: flex;
   margin-bottom: 30px;
 }
@@ -390,4 +395,112 @@ footer {
   color: #666;
   margin-top: -10px;
   margin-bottom: 20px;
+}
+
+/* Research Section Styles */
+.research-item {
+  display: flex;
+  margin-bottom: 60px; /* Increased for more space between items */
+  align-items: flex-start;
+}
+
+.research-image {
+  position: relative;
+  width: 480px; /* Increased from 400px */
+  height: 360px; /* Increased from 300px, maintaining 4:3 aspect ratio */
+  margin-right: 40px; /* Increased from 30px for more separation */
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.research-img-static,
+.research-img-active {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.research-img-active {
+  opacity: 0;
+}
+
+.research-image:hover .research-img-static {
+  opacity: 0;
+}
+
+.research-image:hover .research-img-active {
+  opacity: 1;
+}
+
+.research-content {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.research-content h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 22px; /* font size for the title */
+}
+
+.research-content .authors {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 22px; /* font size for the authors */
+  font-style: italic;
+  color: #666;
+}
+
+.research-content .authors a {
+  color: #1772d0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.research-content .authors a:hover {
+  color: #f09228;
+}
+
+.research-content p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) { /* Increased from 1024px for larger screens */
+  .research-item {
+      flex-direction: column;
+  }
+
+  .research-image {
+      width: 100%;
+      height: 0;
+      padding-bottom: 75%; /* Maintains 4:3 aspect ratio */
+      margin-right: 0;
+      margin-bottom: 30px;
+  }
+
+  .research-content {
+      padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .research-image {
+      padding-bottom: 75%; /* Maintains 4:3 aspect ratio */
+  }
+
+  .research-content h3 {
+      font-size: 22px;
+  }
+
+  .research-content .authors {
+      font-size: 14px;
+  }
+
+  .research-content p {
+      font-size: 14px;
+  }
 }
