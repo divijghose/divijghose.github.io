@@ -383,3 +383,11 @@ footer {
       margin-right: 0;
   }
 }
+
+/* Add a subtitle to the heading */
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
