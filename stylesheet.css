@@ -550,3 +550,21 @@ footer {
         font-size: 14px;
     }
 }
+
+<style>
+  .research-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .research-img-static, .research-img-active {
+    width: 100%;
+    height: auto;
+    max-width: 1000px; /* Adjust as needed */
+  }
+
+  .research-img-active {
+    max-width: 1000px; /* Adjust as needed */
+  }
+</style>
