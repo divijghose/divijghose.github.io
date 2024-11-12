@@ -179,8 +179,6 @@
 
         <div class="section" id="research">
             <h2>Research</h2>
-            <p>My current project, SPADE, aims to combine the uncertainty quantification scheme of dynamically orthogonal(DO) field equations with finite element methods to create a novel modeling framework where analysis and estimation can be performed for optimal design under uncertainty.</p>
-            <p>Given below are some other projects I've worked on in academia and industry.</p>
 
             <div class="research-item">
                 <div class="research-image">
@@ -203,6 +201,79 @@
                 </div>
             </div>
 
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/grabs_supg.png" alt="supg" height=500px>
+                    <img class="research-img-active" src="images/vpinns_supg_tau.png" alt="supg Active" style="width: 100%; height: auto;">
+                </div>
+                <div class="research-content">
+                    <h3>Improving hp-Variational Physics-Informed Neural Networks for
+                        Steady-State Convection-Dominated Problems</h3>
+                    <p class="authors">
+                        <strong>Divij Ghose</strong>*,
+                        <a href="https://thivinanandh.github.io/">Thivin Anandh</a>*,
+                        <a href="https://wias-berlin.de/people/john/?lang=1">Volker John</a>,
+                        <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
+                    </p>
+                    <p> (Under review in CMAME, * denotes equal authorship)</a></p>
+                    
+
+                    <p>This work proposes and studies two extensions of applying hp-variational physics-informed 
+                        neural networks, more precisely the FastVPINNs framework, to convection-dominated convection-diffusion-reaction problems. 
+                        First, a term in the spirit of a SUPG stabilization is included in the loss functional and a
+                        network architecture is proposed that predicts spatially varying stabilization parameters.
+                        Having observed that the selection of the indicator function in hard-constrained Dirichlet 
+                        boundary conditions has a big impact on the accuracy of the computed solutions, the second 
+                        novelty is the proposal of a network architecture that learns good parameters for a
+                        class of indicator functions. Numerical studies show that both proposals 
+                        lead to noticeably more accurate results than approaches that can be found in the literature.</p>
+                </div>
+            </div>
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/losses_fpbfs.png" alt="supg" height=500px>
+                    <img class="research-img-active" src="images/solution_backward_step_vertical.png" alt="supg Active" style="width: 100%; height: auto;">
+                </div>
+                <div class="research-content">
+                    <h3>An efficient hp-Variational Physics Informed Neural
+                        Network framework for solving the Incompressible Navier-Stokes
+                        equation</h3>
+                    <p class="authors">
+                        <a href="https://thivinanandh.github.io/">Thivin Anandh</a>,
+                        <strong>Divij Ghose</strong>,
+                        <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
+                    </p>
+                    <p> (Under review in Computers and Fluids)</a></p>
+                    
+
+                    <p>We extend the FastVPINNs framework to vector-valued problems, with a particular focus on solving the incompressible Navier-Stokes equations for two-dimensional forward and inverse problems, including problems such as the lid-driven cavity flow, the Kovasznay flow, and flow past a backward-facing step for Reynolds numbers up to 200. Our results demonstrate a 2x improvement in training time while maintaining the same order of accuracy compared to PINNs algorithms documented in the literature. We further showcase the framework's efficiency in solving inverse problems for the incompressible Navier-Stokes equations by identifying the Reynolds number of the underlying flow. This implementation opens new avenues for research on hp-VPINNs in CFD problems, potentially extending their applicability to more complex problems.</p>
+                </div>
+            </div>
+
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/Modes.png" alt="supg" height=500px>
+                    <img class="research-img-active" src="images/Coeff.png" alt="supg Active" style="width: 80%; height: auto;">
+                </div>
+                <div class="research-content">
+                    <h3>A finite element implementation of the dynamically orthogonal field equations scheme for uncertainty quantification</h3>
+                    <p class="authors">
+                        <strong>Divij Ghose</strong>,
+                        <a href="https://thivinanandh.github.io/">Thivin Anandh</a>,
+                        <a href="https://cds.iisc.ac.in/faculty/deepakns/">Deepak Subramani</a>
+                        <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
+                    </p>
+                    
+
+                    <p>In this work, we employ an efficient and provably accurate Dynamically Orthogonal (DO) field equation method for reducing the stochastic order by ensuring that the mean squared error of the variance of the stochastic field is minimised. By hypothesizing a decomposition of the
+                        solution field into a mean and stochastic dynamical component, we derive a system of field equations
+                        consisting of a Partial Differential Equation (PDE) for the mean field, a family of PDEs for the orthonormal
+                        basis that describe the stochastic subspace where the stochasticity ‘lives’ as well as a system of Stochastic
+                        Differential Equations that defines how the stochasticity evolves in the time varying stochastic subspace.
+                        These new evolution equations are derived directly from the original SPDE, using nothing more than
+                        a dynamically orthogonal condition on the representation of the solution. We apply this method to both linear and non-linear dynamical systems and compare our results with Monte Carlo simulations.</p>
+                </div>
+            </div>
 
             <div class="research-item">
                 <div class="research-image">
