@@ -40,11 +40,18 @@
           <p><strong>I am an organizer of the 1<sup>st</sup> International Conference on Applied AI and Scientific Machine Learning 2024.</strong> Join us at IISc Bangalore from the 14<sup>th</sup> to the 18<sup>th</sup> of December, 2024. Visit us at <a href="https://casml.cc/">casml.cc</a>.</p>
           <div class="news-container">
             <div class="news-item">
+                <img src="images/siam.svg" alt="siam_logo" class="news-image">
+                <div class="news-content">
+                    <strong>10 December, 2024</strong>
+                    <p>Our paper, "FastVPINNs: Tensor-Driven Accdeleration of VPINNs for Complex Geometries", has been accepted for publicatin in the SIAM Journal on Scientific Computing (SISC)!</p>
+                </div>
+            </div>
+            <div class="news-item">
                 <img src="images/arxiv.png" alt="dte_logo" class="news-image">
                 <div class="news-content">
                     <strong>15 November, 2024</strong>
                     <p>Our paper on "Improving hp-Variational Physics-Informed Neural Networks for Steady-State Convection-Dominated Problems" is now out on arXiv!</p>
-                    <p><a href="https://arxiv.org/abs/2411.09329">Preprint</a></p>
+                   <p><a href="https://arxiv.org/abs/2411.09329">Preprint</a></p>
                 </div>
              </div>
             <div class="news-item">
@@ -98,8 +105,8 @@
                     <img src="images/iccfd-modified.jpeg" alt="joss_logo" class="news-image">
                     <div class="news-content">
                         <strong>17 July, 2024</strong>
-                        <p>Thivin presented our paper titled "Fast and Efficient hp-Variational PINNs framework for
-                            solving the Incompressible Navier-Stokes equations" at <a href="https://www.iccfd.org/iccfd12/">ICCFD 2024</a> in Kobe!</p>
+                        <p> Our paper titled "Fast nOd Efficient hp-Variational PINNs framework for
+                          p  solving the Incompressible Navier-Stokes equations" was presented at <a href="https://www.iccfd.org/iccfd12/">ICCFD 2024</a> in Kobe!</p>
                         <p><a href="https://www.iccfd.org/iccfd12/assets/pdf/papers/ICCFD12_Paper_9-C-02.pdf">Proceedings</a></p>
                     </div>
                  </div>
@@ -202,8 +209,8 @@
                     </p>
                     <p> (Under review in SIAM Journal on Scientific Computing)</a></p>
                     <a href="https://cmgcds.github.io/fastvpinns/index.html">Library</a> / <a href="https://joss.theoj.org/papers/10.21105/joss.06764">JOSS Paper</a> /
-                    <a href="https://github.com/cmgcds/fastvpinns">GitHub</a> / <a href="https://arxiv.org/abs/2404.12063">Preprint</a> / <a href="https://www.youtube.com/watch?v=YAxf4gOdehQ">Presentation at Prof. Karniadakis' CRUNCH Group Seminar</a> 
-                    
+                    <a href="https://github.com/cmgcds/fastvpinns">GitHub</a> / <a href="https://arxiv.org/abs/2404.12063">Preprint</a> / <a href="https://www.youtube.com/watch?v=YAxf4gOdehQ">Presentation at Prof. Karniadakis' CRUNCH Group Seminar</a>
+
 
                     <p>Variational Physics-Informed Neural Networks (VPINNs) utilize a variational loss function to solve partial differential equations, mirroring Finite Element Analysis techniques. Traditional hp-VPINNs, while effective for high-frequency problems, are computationally intensive and scale poorly with increasing element counts, limiting their use in complex geometries. This work introduces FastVPINNs, a novel tensorized loss calculation technique that significantly reduces computational overhead and improves scalability. Using optimized tensor operations, FastVPINNs achieve a 100-fold reduction in the median training time per epoch compared to traditional hp-VPINNs. With proper choice of hyperparameters, FastVPINNs surpass conventional PINNs in both speed and accuracy, especially in problems with high-frequency solutions. Demonstrated effectiveness in solving inverse problems on complex domains underscores FastVPINNs’ potential for widespread application in scientific and engineering challenges, opening new avenues for practical implementations in scientific machine learning.</p>
                 </div>
@@ -224,16 +231,16 @@
                         <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
                     </p>
                     <p> (Under review in CMAME, * denotes equal authorship)</a></p>
-                    
 
-                    <p>This work proposes and studies two extensions of applying hp-variational physics-informed 
-                        neural networks, more precisely the FastVPINNs framework, to convection-dominated convection-diffusion-reaction problems. 
+
+                    <p>This work proposes and studies two extensions of applying hp-variational physics-informed
+                        neural networks, more precisely the FastVPINNs framework, to convection-dominated convection-diffusion-reaction problems.
                         First, a term in the spirit of a SUPG stabilization is included in the loss functional and a
                         network architecture is proposed that predicts spatially varying stabilization parameters.
-                        Having observed that the selection of the indicator function in hard-constrained Dirichlet 
-                        boundary conditions has a big impact on the accuracy of the computed solutions, the second 
+                        Having observed that the selection of the indicator function in hard-constrained Dirichlet
+                        boundary conditions has a big impact on the accuracy of the computed solutions, the second
                         novelty is the proposal of a network architecture that learns good parameters for a
-                        class of indicator functions. Numerical studies show that both proposals 
+                        class of indicator functions. Numerical studies show that both proposals
                         lead to noticeably more accurate results than approaches that can be found in the literature.</p>
                 </div>
             </div>
@@ -252,7 +259,7 @@
                         <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
                     </p>
                     <p> (Under review in Computers and Fluids)</a></p>
-                    
+
 
                     <p>We extend the FastVPINNs framework to vector-valued problems, with a particular focus on solving the incompressible Navier-Stokes equations for two-dimensional forward and inverse problems, including problems such as the lid-driven cavity flow, the Kovasznay flow, and flow past a backward-facing step for Reynolds numbers up to 200. Our results demonstrate a 2x improvement in training time while maintaining the same order of accuracy compared to PINNs algorithms documented in the literature. We further showcase the framework's efficiency in solving inverse problems for the incompressible Navier-Stokes equations by identifying the Reynolds number of the underlying flow. This implementation opens new avenues for research on hp-VPINNs in CFD problems, potentially extending their applicability to more complex problems.</p>
                 </div>
@@ -271,7 +278,7 @@
                         <a href="https://cds.iisc.ac.in/faculty/deepakns/">Deepak Subramani</a>
                         <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
                     </p>
-                    
+
 
                     <p>In this work, we employ an efficient and provably accurate Dynamically Orthogonal (DO) field equation method for reducing the stochastic order by ensuring that the mean squared error of the variance of the stochastic field is minimised. By hypothesizing a decomposition of the
                         solution field into a mean and stochastic dynamical component, we derive a system of field equations
@@ -315,7 +322,7 @@
                 <div class="research-content">
                     <h3>Numerical Prediction of Pressure for Flow around a Cylinder using Particle Image Velocimetry Data</h3>
                     <p class="authors">
-                        <strong>Divij Ghose</strong>, 
+                        <strong>Divij Ghose</strong>,
                         <a href="https://scholar.google.co.in/citations?user=U-dPcOYAAAAJ&hl=en">C.M. Sewatkar</a>
 
                     </p>
@@ -324,7 +331,7 @@
                 </div>
             </div>
 
-            
+
             <div class="research-item">
                 <div class="research-image">
                     <img class="research-img-static" src="images/ktm.png" alt="bajaj" width="200" height="100">
@@ -376,7 +383,7 @@
                     <h3>Assistant Manager</h3>
                     <p> <a href="https://www.bajajauto.com/">Bajaj Auto R&D</a>, Powertrain Design and NVH-CAE</p>
 
-                   
+
                 </div>
             </div>
             <div class="experience-item">
@@ -384,7 +391,7 @@
                 <div class="experience-content">
                     <h3>Engineering Intern</h3>
                     <p> <a href="https://www.larsentoubro.com/">Larsen & Toubro</a> Electrical & Automation</p>
-                   
+
                 </div>
             </div>
             <!-- Add other experience items here -->
