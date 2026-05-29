@@ -1,0 +1,1059 @@
+This file is a merged representation of a subset of the codebase, containing files not matching ignore patterns, combined into a single document by Repomix.
+
+# File Summary
+
+## Purpose
+This file contains a packed representation of a subset of the repository's contents that is considered the most important context.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+
+## File Format
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  a. A header with the file path (## File: path/to/file)
+  b. The full contents of the file in a code block
+
+## Usage Guidelines
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+
+## Notes
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching these patterns are excluded: images/*
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+
+# Directory Structure
+```
+data/
+  Divij_Ghose_CV.pdf
+index.html
+README.md
+stylesheet.css
+```
+
+# Files
+
+## File: README.md
+```markdown
+# divijghose.github.io
+Personal Site
+```
+
+## File: stylesheet.css
+```css
+/* latin-ext */
+@font-face {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 400;
+    src:
+        local("Lato Italic"),
+        local("Lato-Italic"),
+        url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2)
+            format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 400;
+    src:
+        local("Lato Italic"),
+        local("Lato-Italic"),
+        url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2)
+            format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 700;
+    src:
+        local("Lato Bold Italic"),
+        local("Lato-BoldItalic"),
+        url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2)
+            format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 700;
+    src:
+        local("Lato Bold Italic"),
+        local("Lato-BoldItalic"),
+        url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2)
+            format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local("Lato Regular"),
+        local("Lato-Regular"),
+        url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2)
+            format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local("Lato Regular"),
+        local("Lato-Regular"),
+        url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2)
+            format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    src:
+        local("Lato Bold"),
+        local("Lato-Bold"),
+        url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2)
+            format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+        U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    src:
+        local("Lato Bold"),
+        local("Lato-Bold"),
+        url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2)
+            format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+
+a {
+    color: #1772d0;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #f09228;
+    text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+strong {
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+heading {
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+papertitle {
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+name {
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.one {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.two {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+}
+
+.fade {
+    transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+}
+
+span.highlight {
+    background-color: #ffffd0;
+}
+
+/* Existing font faces and basic styles remain unchanged */
+
+body {
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #1772d0;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #f09228;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.profile-image {
+    flex: 0 0 300px;
+    margin-left: 20px;
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+/* .news-item, .research-item, .experience-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.news-image, .experience-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.news-content, .experience-content {
+  flex: 1;
+} */
+/* .research-item, .experience-item {
+  display: flex;
+  margin-bottom: 30px;
+} */
+
+.experience-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.experience-item img {
+    width: 220px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.experience-content {
+    flex: 1;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: right;
+    font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .profile {
+        flex-direction: column-reverse;
+    }
+
+    .profile-image {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .news-item,
+    .research-item,
+    .experience-item {
+        flex-direction: column;
+    }
+
+    .news-image,
+    .experience-item img {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* For a scrollable news section */
+
+.news-container {
+    max-height: 400px; /* Adjust this value as needed */
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* .news-item {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+} */
+
+.news-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+/*
+.news-image {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  object-fit: cover;
+} */
+
+/* .news-content {
+  flex: 1;
+} */
+
+/* Customize scrollbar for webkit browsers */
+.news-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.news-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Responsive adjustments
+@media screen and (max-width: 768px) {
+  .news-item {
+      flex-direction: column;
+  }
+
+  .news-image {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+      margin-right: 0;
+  }
+} */
+
+.news-item {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.news-image {
+    width: 150px; /* Increased from 100px */
+    min-width: 150px; /* Ensure a minimum width */
+    height: auto;
+    margin-right: 20px;
+    object-fit: contain; /* Changed from cover to contain */
+    align-self: flex-start; /* Align image to the top */
+}
+
+.news-content {
+    flex: 1;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .news-item {
+        flex-direction: column;
+    }
+
+    .news-image {
+        width: 100%;
+        max-width: 250px; /* Increased from 200px */
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+}
+
+/* Add a subtitle to the heading */
+.subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+/* Research Section Styles */
+.research-item {
+    display: flex;
+    margin-bottom: 60px; /* Increased for more space between items */
+    align-items: flex-start;
+}
+
+.research-image {
+    position: relative;
+    width: 480px; /* Increased from 400px */
+    height: 360px; /* Increased from 300px, maintaining 4:3 aspect ratio */
+    margin-right: 40px; /* Increased from 30px for more separation */
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.research-img-static,
+.research-img-active {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.research-img-active {
+    opacity: 0;
+}
+
+.research-image:hover .research-img-static {
+    opacity: 0;
+}
+
+.research-image:hover .research-img-active {
+    opacity: 1;
+}
+
+.research-content {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.research-content h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 22px; /* font size for the title */
+}
+
+.research-content .authors {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 22px; /* font size for the authors */
+    font-style: italic;
+    color: #666;
+}
+
+.research-content .authors a {
+    color: #1772d0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.research-content .authors a:hover {
+    color: #f09228;
+}
+
+.research-content p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    /* Increased from 1024px for larger screens */
+    .research-item {
+        flex-direction: column;
+    }
+
+    .research-image {
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%; /* Maintains 4:3 aspect ratio */
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .research-content {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .research-image {
+        padding-bottom: 75%; /* Maintains 4:3 aspect ratio */
+    }
+
+    .research-content h3 {
+        font-size: 22px;
+    }
+
+    .research-content .authors {
+        font-size: 14px;
+    }
+
+    .research-content p {
+        font-size: 14px;
+    }
+}
+
+<style>
+  .research-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .research-img-static, .research-img-active {
+    width: 100%;
+    height: auto;
+    max-width: 1000px; /* Adjust as needed */
+  }
+
+  .research-img-active {
+    max-width: 1000px; /* Adjust as needed */
+  }
+</style>
+```
+
+## File: index.html
+```html
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Divij Ghose</title>
+    <meta name="author" content="Divij Ghose">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/jpg" href="images/cds.png">
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="profile">
+            <div class="profile-text">
+                <h1>Divij Ghose</h1>
+                <p class="subtitle">Scientific ML and Applied AI researcher, Indian Institute of Science, Bangalore</p>
+                <p>I am a senior research fellow at the <a href="http://cds.iisc.ac.in/">Department of Computational and Data Sciences (CDS), IISc Bangalore</a>, where I work with <a href="http://cds.iisc.ac.in/faculty/sashi/">Prof. Sashikumaar Ganesan</a>
+                as a member of the <a href="https://airexlab.cds.iisc.ac.in/">AIREX Lab</a>. I work at the intersection of finite element methods, uncertainty quantification, and machine learning, with a focus on problems in computational fluid dynamics.
+
+                <p>I am a lead developer of the <a href="https://cmgcds.github.io/fastvpinns/index.html">FastVPINNs</a> framework. I have previously worked on implementing the dynamically othogonal field equations scheme for uncertainty quantification in <a href="https://github.com/cmgcds/ParMooN">ParMooN</a> for SPADE, funded by the Ministry of HRD. My work on Scientific Machine Learning has been partially funded by Shell Technology Centre, Bangalore.
+
+
+                <p style="margin-top: 0px;">I graduated with a B.Tech in Mechanical Engineering from the <a href="https://www.coeptech.ac.in/">College of Engineering Pune (CoEP)</a>, with Honors in Thermal Engineering, at the top of my class. I have received the <a href="https://www.forbesmarshall.com/India">Forbes Marshall</a> Award for the Most Outstanding Project and the Prof. S.R. Kajale Memorial Medal for the Best Outgoing Mechanical Engineering Student.</p>
+                <p class="links">
+                    <a href="mailto:divijghose@gmail.com">Email</a> &nbsp/&nbsp
+                    <a href="https://drive.google.com/file/d/1AlAiRM9kpjiTexMIXftY5-ihsWhPAY7b/view?usp=sharing">CV</a> &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/divij-ghose/">LinkedIn</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.com/citations?user=3R6sbA0AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                    <a href="https://github.com/divijghose">GitHub</a> &nbsp/&nbsp
+                    <a href="https://twitter.com/divijghose">Twitter</a>
+                </p>
+            </div>
+            <div class="profile-image">
+                <img src="images/me.jpeg" alt="profile photo">
+            </div>
+        </div>
+
+        <div class="section" id="news">
+          <h2>News</h2>
+
+          <div class="news-container">
+            <div class="news-item">
+                <img src="images/cmame-modified.jpg" alt="cmame_logo" class="news-image">
+                <div class="news-content">
+                    <strong>25 Januray, 2025</strong>
+                    <p>Our paper, titled "Improving hp-Variational Physics Informed Neural Networks for Steady-State Convection-Dominated Problems" has been accepted for publication in Computer Methods in Applied Mechanics and Engineering!</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="images/thumbnail_CASML 2024.png" alt="siam_logo" class="news-image">
+                <div class="news-content">
+                    <strong>16-18 December, 2024</strong>
+                    <p>I was one of the organizers of the 1<sup>st</sup> International Conference on Applied AI and Scientific Machine Learning 2024. Over the course of three days, we hosted leading researchers from academia and industry, including Prof. Karniadakis (Brown), Prof. Anandkumar (Caltech), Prof. Vinuesa (KTH), Prof. Rozza (SISSA), Dr. Heinlein (TU Delft) and Prof. Mishra (ETH). The conference was attended by about 300 participants, with contributed presenations and posters.</p>
+                    <p><a href="https://casml.cc/">Conference Website</a></p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="images/thumbnail_CASML 2024.png" alt="siam_logo" class="news-image">
+                <div class="news-content">
+                    <strong>14-15 December, 2024</strong>
+                    <p>I organized the preconference workshop on Scientific Machine Learning for the 1<sup>st</sup> International Conference on Applied AI and Scientific Machine Learning 2024. I took sessions on PINNs, Neural Operators and our framework, FastVPINNs, for over 200 participants from academia and industry.</p>
+                    <p><a href="https://github.com/airex-lab/CASML24Workshop">Workshop Repository</a></p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="images/siam.svg" alt="siam_logo" class="news-image">
+                <div class="news-content">
+                    <strong>10 December, 2024</strong>
+                    <p>Our paper, "FastVPINNs: Tensor-Driven Accdeleration of VPINNs for Complex Geometries", has been accepted for publication in the SIAM Journal on Scientific Computing (SISC)!</p>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <img src="images/arxiv.png" alt="dte_logo" class="news-image">
+                <div class="news-content">
+                    <strong>15 November, 2024</strong>
+                    <p>Our paper on "Improving hp-Variational Physics-Informed Neural Networks for Steady-State Convection-Dominated Problems" is now out on arXiv!</p>
+                   <p><a href="https://arxiv.org/abs/2411.09329">Preprint</a></p>
+                </div>
+             </div>
+            <div class="news-item">
+                <img src="images/logo_dte_def-modified.png" alt="dte_logo" class="news-image">
+                <div class="news-content">
+                    <strong>9 November, 2024</strong>
+                    <p>Two of our papers have been accepted at <a href="https://dte_aicomas_2025.iacm.info/">DTE & AICOMAS</a>, Paris, 2025!</p>
+                </div>
+             </div>
+                <div class="news-item">
+                    <img src="images/Logo_University_of_Heidelberg.svg" alt="heidelberg_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>28-30 October, 2024</strong>
+                        <p>I attended the <a href="https://conan.iwr.uni-heidelberg.de/events/hasc_workshop2024/">Indo German Workshop on Hardware Aware Scientific Computing</a> at the University of Heidelberg! We presented our work on FastVPINNs, particularly our new results on solving singularly perturbed PDEs using hp-VPINNs. <a href="https://thivinanandh.github.io">Thivin</a> won the <a href="https://cds.iisc.ac.in/four-cds-phd-students-won-best-poster-awards-at-ighasc-workshop-university-of-heidelberg-germany/">best poster award</a> for presenting our work on FastVPINNs.</p>
+                        <p><a href="https://drive.google.com/file/d/1CzsaBHN7bMT5xPziUIcy8b5Iu0ihVyEY/view?usp=sharing">Poster</a></p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/stanford.png" alt="heidelberg_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>23 September- 7 October, 2024</strong>
+                        <p>I <a href="https://flame-ai-workshop.github.io/organizers.html"> volunteered</a> as a Machine Learning Specialist to conduct office hours for the <a href="https://flame-ai-workshop.github.io/">Stanford FLAME AI Challenge</a>!</p>
+
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/shell_logo.png" alt="shell_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>10-11 September, 2024</strong>
+                        <p>I attended the <a href="https://www.shell.in/energy-and-innovation/changemakers/sciences.html">Shell.ai Scientific Conference 2024</a>!</p>
+                        <p><a href="https://drive.google.com/file/d/1_ruN1FPtwe_wLF9acNMDOEk-uwVH5kUB/view?usp=sharing">Poster</a></p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/arxiv.png" alt="arxiv_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>6 September, 2024</strong>
+                        <p>Our preprint titled "An efficient hp-Variational PINNs framework for incompressible Navier-Stokes equations" is out on arXiv.</p>
+                        <p><a href="https://arxiv.org/pdf/2409.04143">Preprint</a></p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/joss-modified.png" alt="joss_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>30 July, 2024</strong>
+                        <p>Our work on the <a href="https://cmgcds.github.io/fastvpinns/index.html">FastVPINNs library</a> has been published in the <a href="https://joss.theoj.org/">Journal of Open Source Software</a>!</p>
+                        <p><a href="https://joss.theoj.org/papers/10.21105/joss.06764">Paper</a></p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/iccfd-modified.jpeg" alt="joss_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>17 July, 2024</strong>
+                        <p> Our paper titled "Fast nOd Efficient hp-Variational PINNs framework for
+                          p  solving the Incompressible Navier-Stokes equations" was presented at <a href="https://www.iccfd.org/iccfd12/">ICCFD 2024</a> in Kobe!</p>
+                        <p><a href="https://www.iccfd.org/iccfd12/assets/pdf/papers/ICCFD12_Paper_9-C-02.pdf">Proceedings</a></p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/arxiv.png" alt="iclr_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>18 April, 2024</strong>
+                        <p>The preprint for FastVPINNs is now available on arXiv.</p>
+                        <p><a href="https://arxiv.org/abs/2404.12063">Preprint</a></p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/iclr-modified.png" alt="iclr_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>3 March, 2024</strong>
+                        <p>We presented our new framework, FastVPINNs, at the ICLR 2024 <a href="https://ai4diffeqtnsinsci.github.io/">Workshop on AI4Differential Equations In Science</a>, Vienna!</p>
+                        <p><a href="https://openreview.net/pdf?id=sKv08bVA5Q">Paper</a></p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/lacam-modified.jpg" alt="lacam_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>21-24 February, 2024</strong>
+                        <p>I attended the <a href="https://conference.iisertvm.ac.in/lacam-24/">International Conference on Latest Advances in Computationaland Applied Mathematics</a>, 2024, at IISER Thiruvananthapuram as a contributing speaker.</p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/shell_logo.png" alt="shell_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>4 October, 2023</strong>
+                        <p>I am attending the Shell.ai Scientific Conference in Bangalore!</p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/stanford.png" alt="stanford_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>6-15 September, 2023</strong>
+                        <p>I was part of one of the top teams at the <a href="https://www.kaggle.com/competitions/2023-flame-ai-challenge/leaderboard">Stanford FLAME AI Challenge</a>!</p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/IISc.png" alt="iisc_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>27-30 March, 2023</strong>
+                        <p>I was part of the student organizing committee for the <a href="https://cds.iisc.ac.in/indo-german-conference-on-computational-mathematics-igcm-at-cds/">Indo-German Conference on Computational Mathematics</a> 2024, at IISc Bangalore.</p>
+                    </div>
+                 </div>
+                 <div class="news-item">
+                    <img src="images/iiser_logo-modified.png" alt="iisertvm_logo" class="news-image">
+                    <div class="news-content">
+                        <strong>19-24 September, 2022</strong>
+                        <p>I attended the NCM workshop on Numerical Methods for Differential Equations at IISER Thiruvananthapuram.</p>
+                    </div>
+                 </div>
+              <div class="news-item">
+                  <img src="images/gpss.svg" alt="GPSS" class="news-image">
+                  <div class="news-content">
+                      <strong>13-16 September, 2021</strong>
+                      <p>I attended the <a href="http://gpss.cc/gpss21/">Gaussian Process Summer School 2021</a>!</p>
+                      <p><a href="https://drive.google.com/file/d/1JC91_RjPh75EGe1JisLfunCGpUAUAwJI/view?usp=sharing">Certificate</a> | <a href="https://github.com/divijghose/GPSS21/tree/2021">GitHub</a></p>
+                  </div>
+              </div>
+              <!-- Add more news items here -->
+              <div class="news-item">
+                  <img src="images/Qiskit.png" alt="News" class="news-image">
+                  <div class="news-content">
+                      <strong>2 September, 2021</strong>
+                      <p>I attended the <a href="https://qiskit.org/events/summer-school/">Qiskit Global Summer School 2021</a>!</p>
+                      <p><a href="https://drive.google.com/file/d/1MdH9cJUcUjyzpkIijuHfQnQbtPhiatY7/view?usp=sharing">Certificate</a> </p>
+                  </div>
+              </div>
+
+              <div class="news-item">
+                <img src="images/karnataka.jpg" alt="News" class="news-image">
+                <div class="news-content">
+                    <strong>12-23 July, 2021</strong>
+                    <p>Our work on "Ensemble forecast of COVID-19 in Karnataka for vulnerability assessment and policy interventions" is now available as a <a href="https://www.medrxiv.org/content/10.1101/2021.08.31.21262943v1">preprint</a>!</p>
+                    <p>Press: <a href="https://www.deccanherald.com/state/top-karnataka-stories/doubling-vaccination-rate-can-reduce-active-case-load-ten-fold-experts-1017649.html">Deccan Herald</a> | <a href="https://www.newindianexpress.com/states/karnataka/2021/aug/09/if-new-variant-emerges-karnataka-may-see-20-lakh-cases-between-august-22-and-september-10-iisc-2342092.html">The New Indian Express</a></p>
+                </div>
+            </div>
+              <!-- Add more news items as needed -->
+          </div>
+      </div>
+
+
+        <div class="section" id="research">
+            <h2>Research</h2>
+
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/fastvpinns.png" alt="fastvpinns" height=500px>
+                    <img class="research-img-active" src="images/fastvpinns_results.png" alt="fastvpinns Active" style="width: 100%; height: auto;">
+                </div>
+                <div class="research-content">
+                    <h3>FastVPINNs: Tensor-Driven Acceleration of VPINNs for Complex Geometries</h3>
+                    <p class="authors">
+                        <a href="https://thivinanandh.github.io/">Thivin Anandh</a>,
+                        <strong>Divij Ghose</strong>,
+                        <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
+                    </p>
+                    <p> (Under review in SIAM Journal on Scientific Computing)</a></p>
+                    <a href="https://cmgcds.github.io/fastvpinns/index.html">Library</a> / <a href="https://joss.theoj.org/papers/10.21105/joss.06764">JOSS Paper</a> /
+                    <a href="https://github.com/cmgcds/fastvpinns">GitHub</a> / <a href="https://arxiv.org/abs/2404.12063">Preprint</a> / <a href="https://www.youtube.com/watch?v=YAxf4gOdehQ">Presentation at Prof. Karniadakis' CRUNCH Group Seminar</a>
+
+
+                    <p>Variational Physics-Informed Neural Networks (VPINNs) utilize a variational loss function to solve partial differential equations, mirroring Finite Element Analysis techniques. Traditional hp-VPINNs, while effective for high-frequency problems, are computationally intensive and scale poorly with increasing element counts, limiting their use in complex geometries. This work introduces FastVPINNs, a novel tensorized loss calculation technique that significantly reduces computational overhead and improves scalability. Using optimized tensor operations, FastVPINNs achieve a 100-fold reduction in the median training time per epoch compared to traditional hp-VPINNs. With proper choice of hyperparameters, FastVPINNs surpass conventional PINNs in both speed and accuracy, especially in problems with high-frequency solutions. Demonstrated effectiveness in solving inverse problems on complex domains underscores FastVPINNs’ potential for widespread application in scientific and engineering challenges, opening new avenues for practical implementations in scientific machine learning.</p>
+                </div>
+            </div>
+
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/grabs_supg.png" alt="supg" height=500px>
+                    <img class="research-img-active" src="images/vpinns_supg_tau.png" alt="supg Active" style="width: 100%; height: auto;">
+                </div>
+                <div class="research-content">
+                    <h3>Improving hp-Variational Physics-Informed Neural Networks for
+                        Steady-State Convection-Dominated Problems</h3>
+                    <p class="authors">
+                        <strong>Divij Ghose</strong>*,
+                        <a href="https://thivinanandh.github.io/">Thivin Anandh</a>*,
+                        <a href="https://wias-berlin.de/people/john/?lang=1">Volker John</a>,
+                        <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
+                    </p>
+                    <p> (Under review in CMAME, * denotes equal authorship)</a></p>
+
+
+                    <p>This work proposes and studies two extensions of applying hp-variational physics-informed
+                        neural networks, more precisely the FastVPINNs framework, to convection-dominated convection-diffusion-reaction problems.
+                        First, a term in the spirit of a SUPG stabilization is included in the loss functional and a
+                        network architecture is proposed that predicts spatially varying stabilization parameters.
+                        Having observed that the selection of the indicator function in hard-constrained Dirichlet
+                        boundary conditions has a big impact on the accuracy of the computed solutions, the second
+                        novelty is the proposal of a network architecture that learns good parameters for a
+                        class of indicator functions. Numerical studies show that both proposals
+                        lead to noticeably more accurate results than approaches that can be found in the literature.</p>
+                </div>
+            </div>
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/losses_fpbfs.png" alt="supg" height=500px>
+                    <img class="research-img-active" src="images/solution_backward_step_vertical.png" alt="supg Active" style="width: 100%; height: auto;">
+                </div>
+                <div class="research-content">
+                    <h3>An efficient hp-Variational Physics Informed Neural
+                        Network framework for solving the Incompressible Navier-Stokes
+                        equation</h3>
+                    <p class="authors">
+                        <a href="https://thivinanandh.github.io/">Thivin Anandh</a>,
+                        <strong>Divij Ghose</strong>,
+                        <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
+                    </p>
+                    <p> (Under review in Computers and Fluids)</a></p>
+
+
+                    <p>We extend the FastVPINNs framework to vector-valued problems, with a particular focus on solving the incompressible Navier-Stokes equations for two-dimensional forward and inverse problems, including problems such as the lid-driven cavity flow, the Kovasznay flow, and flow past a backward-facing step for Reynolds numbers up to 200. Our results demonstrate a 2x improvement in training time while maintaining the same order of accuracy compared to PINNs algorithms documented in the literature. We further showcase the framework's efficiency in solving inverse problems for the incompressible Navier-Stokes equations by identifying the Reynolds number of the underlying flow. This implementation opens new avenues for research on hp-VPINNs in CFD problems, potentially extending their applicability to more complex problems.</p>
+                </div>
+            </div>
+
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/Modes.png" alt="supg" height=500px>
+                    <img class="research-img-active" src="images/Coeff.png" alt="supg Active" style="width: 80%; height: auto;">
+                </div>
+                <div class="research-content">
+                    <h3>A finite element implementation of the dynamically orthogonal field equations scheme for uncertainty quantification</h3>
+                    <p class="authors">
+                        <strong>Divij Ghose</strong>,
+                        <a href="https://thivinanandh.github.io/">Thivin Anandh</a>,
+                        <a href="https://cds.iisc.ac.in/faculty/deepakns/">Deepak Subramani</a>
+                        <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>.
+                    </p>
+
+
+                    <p>In this work, we employ an efficient and provably accurate Dynamically Orthogonal (DO) field equation method for reducing the stochastic order by ensuring that the mean squared error of the variance of the stochastic field is minimised. By hypothesizing a decomposition of the
+                        solution field into a mean and stochastic dynamical component, we derive a system of field equations
+                        consisting of a Partial Differential Equation (PDE) for the mean field, a family of PDEs for the orthonormal
+                        basis that describe the stochastic subspace where the stochasticity ‘lives’ as well as a system of Stochastic
+                        Differential Equations that defines how the stochasticity evolves in the time varying stochastic subspace.
+                        These new evolution equations are derived directly from the original SPDE, using nothing more than
+                        a dynamically orthogonal condition on the representation of the solution. We apply this method to both linear and non-linear dynamical systems and compare our results with Monte Carlo simulations.</p>
+                </div>
+            </div>
+
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/probdist.png" alt="Research Project 1">
+                    <img class="research-img-active" src="images/heatmap.png" alt="Research Project 1 Active" style="width: 90%; height: auto;">
+                </div>
+                <div class="research-content">
+                    <h3>Ensemble forecast of COVID-19 in Karnataka for vulnerability assessment and policy interventions</h3>
+                    <p class="authors">
+                        <a href="http://cds.iisc.ac.in/faculty/sashi/">Sashikumaar Ganesan</a>,
+                        <a href="https://cds.iisc.ac.in/faculty/deepakns/">Deepak Subramani</a>,
+                        <a href="https://thivinanandh.github.io/">Thivin Anandh</a>,
+                        <strong>Divij Ghose</strong>,
+                        <a href="https://giridhar.org/">Giridhar Babu</a>
+
+                    </p>
+                    <a target="_blank" href="https://colab.research.google.com/github/divijghose/COVID_Wave3_IISc/blob/main/COVID_Wave3_Ensemble.ipynb">
+                        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+                      </a> / <a href="https://www.medrxiv.org/content/10.1101/2021.08.31.21262943v1">Preprint</a> / <a href="https://www.deccanherald.com/india/karnataka/doubling-vaccination-rate-can-reduce-active-case-load-ten-fold-experts-1017649.html">Press</a>
+                    <p>We present an ensemble forecast for Wave-3 of COVID-19 in the state of Karnataka, India, using the IISc Population Balance Model for infectious disease spread. The reported data of confirmed, recovered, and deceased cases in Karnataka from 1 July 2020 to 4 July 2021 is utilized to tune the model’s parameters, and an ensemble forecast is done from 5 July 2021 to 30 June 2022. The ensemble is built with 972 members by varying seven critical parameters that quantify the uncertainty in the spread dynamics (antibody waning, viral mutation) and interventions (pharmaceutical, non-pharmaceutical). The probability of Wave-3, the peak date distribution, and the peak caseload distribution are estimated from the ensemble forecast. </p>
+                </div>
+            </div>
+
+
+
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/piv.jpg" alt="PIV" width="200" height="100">
+                    <img class="research-img-active" src="images/piv.gif" alt="PIV Active">
+                </div>
+                <div class="research-content">
+                    <h3>Numerical Prediction of Pressure for Flow around a Cylinder using Particle Image Velocimetry Data</h3>
+                    <p class="authors">
+                        <strong>Divij Ghose</strong>,
+                        <a href="https://scholar.google.co.in/citations?user=U-dPcOYAAAAJ&hl=en">C.M. Sewatkar</a>
+
+                    </p>
+                    <a href="https://drive.google.com/file/d/1Y49HT3fSaGE_55w8pGT_OiME1dwKVfuv/view?usp=sharing">B.Tech Thesis</a>
+                    <p>Traditional methods of pressure measurement are usually intrusive in nature, and are rarely able to quantify the entire flow field. We present an accurate, cost-effective and non-intrusive method by computing the pressure field from velocity data obtained using Particle Image Velocimetry. The result can be post-processed to find coefficients of drag and lift. We use two approaches - one that solves the Pressure Poisson equation over the entire domain, and another that integrates the pressure gradients calculated using the Navier-Stokes equation. Moreover, unlike others, we use a single-Laser PIV combined with a novel shadow correction technique, which makes our system more accesible.</p>
+                </div>
+            </div>
+
+
+            <div class="research-item">
+                <div class="research-image">
+                    <img class="research-img-static" src="images/ktm.png" alt="bajaj" width="200" height="100">
+                    <img class="research-img-active" src="images/conrodfea.png" alt="bajaj Active" style="width: 62.5%;">
+                </div>
+                <div class="research-content">
+                    <h3>Computer Aided Design and Analysis of Powertrain Components</h3>
+                    <p>As an R&D Engineer at Bajaj Auto, I was involved in the CAE analysis and optimization of engine and electric vehicle components. Such CAE methods included bore distortion analysis of engine cylinders, factor of safety calculation and weight optimization of connecting rods and crankshafts, thermal analysis of Electric Motor Control Units, and noise and vibration studies, for brands like <a href="https://www.ktm.com/en-in.html">KTM</a>, <a href="https://www.husqvarna-motorcycles.com/en-in.html"> Husqvarna</a>, <a href="https://www.triumphmotorcycles.in/">Triumph</a> and Bajaj.</p>
+                </div>
+            </div>
+
+            <!-- Add more research items as needed -->
+
+        </div>
+
+        <div class="section" id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <img src="images/ARTPARK+secondary-modified.png" alt="IISc">
+                <div class="experience-content">
+                    <h3>Data Scientist</h3>
+                    <p><a href="https://artpark.in/">ARTPARK@IISc</a>.</p>
+
+
+                </div>
+            </div>
+            <div class="experience-item">
+                <img src="images/IISc.png" alt="IISc">
+                <div class="experience-content">
+                    <h3>Senior Research Fellow</h3>
+                    <p><a href="https://airexlab.cds.iisc.ac.in/">AI for Research and Engineering eXcellence (AIREX) Lab</a>.</p>
+                    <h3>Teaching Assistant</h3>
+                    <p>Applied AI: Building Practical and Scalable ML Systems; Artificial Intelligence and Machine Learning</p>
+
+                </div>
+            </div>
+            <div class="experience-item">
+                <img src="images/IISc.png" alt="IISc">
+                <div class="experience-content">
+                    <h3>Research Assistant</h3>
+                    <p>Computational Mathematics Group & <a href="http://questlab.cds.iisc.ac.in/">Quantifying Uncertainty in Engineering, Science & Technology Lab</a>.</p>
+                    <h3>Teaching Assistant</h3>
+                    <p>Introduction to Computing for AI/ML</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <img src="images/Bajaj.png" alt="IISc">
+                <div class="experience-content">
+                    <h3>Assistant Manager</h3>
+                    <p> <a href="https://www.bajajauto.com/">Bajaj Auto R&D</a>, Powertrain Design and NVH-CAE</p>
+
+
+                </div>
+            </div>
+            <div class="experience-item">
+                <img src="images/LNT.png" alt="IISc">
+                <div class="experience-content">
+                    <h3>Engineering Intern</h3>
+                    <p> <a href="https://www.larsentoubro.com/">Larsen & Toubro</a> Electrical & Automation</p>
+
+                </div>
+            </div>
+            <!-- Add other experience items here -->
+        </div>
+
+        <footer>
+            <p>Cloned from <a href="https://jonbarron.info/">Jon Barron</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
